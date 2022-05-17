@@ -1,6 +1,6 @@
 package be.technifutur.starwars;
 
-public class VaisseauAncetre {
+public abstract class VaisseauAncetre {
 
     private  String nom;
     private int nbMissille;
@@ -10,6 +10,8 @@ public class VaisseauAncetre {
     public VaisseauAncetre(String anom){
         this.nom = anom;
     }
+
+    public abstract void afficheCamp();
 
 
     public void decoller() {

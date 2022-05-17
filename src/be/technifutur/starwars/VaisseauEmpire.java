@@ -6,6 +6,11 @@ public class VaisseauEmpire extends VaisseauAncetre{
         super(anom);
     }
 
+    @Override
+    public void afficheCamp() {
+
+    }
+
     public void messageDarkvador(String message){
         System.out.println("fffffffffff");
     }
