@@ -16,6 +16,9 @@ public class Scenario3 {
         //VaisseauEmpire ve2 = va;
         ve.messageDarkvador("help");
         vr.messageR2D2("ou est c3pO ?");
+        ve.afficheCamp();
+        vr.afficheCamp();
+        va2.afficheCamp();
 
     }
 }

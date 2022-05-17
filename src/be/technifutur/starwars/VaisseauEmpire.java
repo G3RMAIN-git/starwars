@@ -8,7 +8,7 @@ public class VaisseauEmpire extends VaisseauAncetre{
 
     @Override
     public void afficheCamp() {
-
+        System.out.println("Je suis un empirien");
     }
 
     public void messageDarkvador(String message){
