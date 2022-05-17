@@ -6,4 +6,8 @@ public class VaisseauEmpire extends VaisseauAncetre{
         super(anom);
     }
 
+    public void messageDarkvador(String message){
+        System.out.println("fffffffffff");
+    }
+
 }
