@@ -20,10 +20,13 @@ public class Scenario3 {
         ve.afficheCamp();
         vr.afficheCamp();
         va2.afficheCamp();
-        System.out.println("--------------------");
+        System.out.println("---------Etoile de la mort----------");
         etmort.attireVaisseau(ve);
+        System.out.println("---ve------");
         etmort.attireVaisseau(vr);
+        System.out.println("-----vr-----");
         etmort.attireVaisseau(va2);
+        System.out.println("-----va2-----");
 
     }
 }
