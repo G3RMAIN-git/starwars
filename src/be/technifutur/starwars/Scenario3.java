@@ -6,13 +6,13 @@ public class Scenario3 {
 
         VaisseauAncetre va = new VaisseauAncetre("Wing");
         VaisseauEmpire ve = new VaisseauEmpire("Xwing");
-        VaisseauRebel vr = new VaisseauRebel("Millenium");
+        VaisseauRebel vr = new VaisseauRebel( "Millenium");
 
         ve.decoller();
         System.out.println(VaisseauAncetre.getNbrVol());
         ve.atterir();
 
-        VaisseauAncetre va2 = ve;
+        //VaisseauAncetre va2 = ve;
         //VaisseauEmpire ve2 = va;
 
     }
