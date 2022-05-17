@@ -1,4 +1,8 @@
 package be.technifutur.starwars;
 
-public class Jedi {
+public class Jedi extends Rebelle implements Force{
+    public vois utiliseForce(){
+
+    }
+
 }

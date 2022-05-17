@@ -7,8 +7,9 @@ public abstract class VaisseauAncetre {
     public boolean enlair = false;
     private static int nbrenvol = 0;
 
-    public VaisseauAncetre(String anom){
-        this.nom = anom;
+    public VaisseauAncetre(String anom){ // constructeur pour le nom inmodifiable
+        if(anom != null && anom.trim().length()>0)
+            this.nom = anom;
     }
 
     public abstract void afficheCamp();
