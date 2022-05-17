@@ -5,7 +5,7 @@ public class etoiledelamort {
     public void attireVaisseau(VaisseauAncetre v) {
         if (v instanceof VaisseauRebel) {
             attireVaisseau((VaisseauRebel) v);
-        } else if (v instanceof VaisseauEmpire) {
+        } else if (v instanceof VaisseauEmpire) {//verif que c un vaisseau empire-> je sais que c un vaisseau empire donc ...
             attireVaisseau((VaisseauEmpire) v);
         } else {
             v.atterir();
