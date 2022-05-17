@@ -7,6 +7,7 @@ public class Scenario3 {
         //VaisseauAncetre va = new VaisseauAncetre("Wing");
         VaisseauEmpire ve = new VaisseauEmpire("Xwing");
         VaisseauRebel vr = new VaisseauRebel( "Millenium");
+        etoiledelamort etmort = new etoiledelamort();
 
         ve.decoller();
         System.out.println(VaisseauAncetre.getNbrVol());
@@ -19,6 +20,10 @@ public class Scenario3 {
         ve.afficheCamp();
         vr.afficheCamp();
         va2.afficheCamp();
+        System.out.println("--------------------");
+        etmort.attireVaisseau(ve);
+        etmort.attireVaisseau(vr);
+        etmort.attireVaisseau(va2);
 
     }
 }
