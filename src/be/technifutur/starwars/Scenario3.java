@@ -14,6 +14,8 @@ public class Scenario3 {
 
         //VaisseauAncetre va2 = ve;
         //VaisseauEmpire ve2 = va;
+        ve.messageDarkvador("help");
+        vr.messageR2D2("ou est c3pO ?");
 
     }
 }
